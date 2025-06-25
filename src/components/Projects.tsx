@@ -68,12 +68,20 @@ export const Projects = () => {
           >
             <Linkedin className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors duration-300" />
           </a>
-          <a 
-            href="mailto:rrohan7272@vt.edu" 
+          <button
+            type="button"
+            onClick={() => {
+              const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+              if (isMobile) {
+                window.location.href = "mailto:rohan7272@vt.edu";
+              } else {
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=rohan7272@vt.edu", "_blank");
+              }
+            }}
             className="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
           >
             <Mail className="w-6 h-6 text-gray-700 group-hover:text-purple-600 transition-colors duration-300" />
-          </a>
+          </button>
         </div>
       </div>
     </section>
