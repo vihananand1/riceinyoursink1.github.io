@@ -1,1391 +1,3824 @@
-Mil Spec=Military Specification
-Mil Dep=Military Department
-IPv4=Internet Protocol version 4
-IPv6=Internet Protocol version 6
-MILPER=Military Personnel
-MilCon=Military Construction
-A2/AD=Anti-Access/Area Denial
-BLOS=Beyond Line of Sight
-LOS=Line of Sight
-M&S=Modeling and Simulation
-O&M=Operations and Maintenance
-CONOPS=Concept of Operations
-IOT&E=Initial Operational Test and Evaluation
-FOUO=For Official Use Only
-S&TI=Scientific and Technical Intelligence
-MDA=Milestone Decision Authority
-S&T=Science and Technology
-UAS=Unmanned Aircraft System
-UXO=Unexploded Ordnance
-UX=User Experience
-OEF=Operation Enduring Freedom
-OIF=Operation Iraqi Freedom
-Mil Pers=Military Personnel
-FY=Fiscal Year
-BCT=Brigade Combat Team
-Cbt Tm=Combat Team
-VPN=Virtual Private Network
-TTP=Tactics, Techniques, and Procedures
-SATCOM=Satellite Communications
-EXCON=Exercise Control
-JIEDDO=Joint Improvised Explosive Device Defeat Organization
-SLIN=Sub Line Item Number
-CLIN=Contract Line Item Number
-POA&M=Plan of Action and Milestones
-RMF=Risk Management Framework
-IA=Information Assurance
-IAVA=Information Assurance Vulnerability Alert
-POM=Program Objective Memorandum
-PBSA=Performance-Based Service Acquisition
-BOA=Basic Ordering Agreement
-BPA=Blanket Purchase Agreement
-BPA Call=Blanket Purchase Agreement Call
-COTS=Commercial Off-The-Shelf
-GOTS=Government Off-The-Shelf
-MOTS=Modified Off-The-Shelf
-UID=Unique Identifier
-IUID=Item Unique Identifier
-QDR=Quadrennial Defense Review
-ROI=Return on Investment
-COOP=Continuity of Operations
-ACAT=Acquisition Category
-IAW=In Accordance With
-TAD=Temporary Additional Duty
-TDY=Temporary Duty
-COP=Common Operating Picture
-ATP=Acceptance Test Procedure
-PDR=Preliminary Design Review
-CDRL=Contract Data Requirements List
-MTOE=Modified Table of Organization and Equipment
-OCIE=Organizational Clothing and Individual Equipment
-PMCS=Preventive Maintenance Checks and Services
-RDTE=Research, Development, Test, and Evaluation
-FMS=Foreign Military Sales
-FMF=Foreign Military Financing
-PPP=Public-Private Partnership
-SLA=Service Level Agreement
-VAR=Value Added Reseller
-QA=Quality Assurance
-QC=Quality Control
-P&P=Policies and Procedures
-GFE=Government Furnished Equipment
-GFP=Government Furnished Property
-GFI=Government Furnished Information
-FYDP=Future Years Defense Program
-AOR=Area of Responsibility
-R&D=Research and Development
-OJT=On the Job Training
-IPR=In-Progress Review
-MSA=Mission Support Area
-SPOT=Synchronised Predeployment and Operational Tracker
-BOM=Bill of Materials
-ILS=Integrated Logistics Support
-ILSMP=Integrated Logistics Support Management Plan
-ILSPS=Integrated Logistics Support Plan Summary
-FBO=Federal Business Opportunities
-CCR=Central Contractor Registration
-SAM=System for Award Management
-CFR=Code of Federal Regulations
-OCONUS=Outside Continental United States
-CONUS=Continental United States
-SECAF=Secretary of the Air Force
-SecArmy=Secretary of the Army
-SecNav=Secretary of the Navy
-DEPSECDEF=Deputy Secretary of Defense
-JSF=Joint Strike Fighter
-OS=Operating System
-IT=Information Technology
-AI=Artificial Intelligence
-ML=Machine Learning
-NT=New Technology
-CD=Compact Disc / Configuration Document
-CI=Counterintelligence
-CA=Certificate Authority
-CoE=Center of Excellence
-C2=Command and Control
-C4=Command, Control, Communications, and Computers
-C5=Command, Control, Communications, Computers, and Combat Systems
-CS=Computer Science
-Iaw=In Accordance With
-IaaS=Infrastructure as a Service
-PaaS=Platform as a Service
-SaaS=Software as a Service
-BYOD=Bring Your Own Device
-IoT=Internet of Things
-OT=Operational Test
-DT=Developmental Test
-FoS=Family of Systems
-SoS=System of Systems
-AoA=Analysis of Alternatives
-S&T=Science and Technology
-R&D=Research and Development
-S&TI=Scientific and Technical Intelligence
-PM=Program Manager
-SA=Situational Awareness
-KP=Key Personnel
-FTE=Full-Time Equivalent
-LoE=Level of Effort
-PoP=Period of Performance
-PT=Physical Training
-QoS=Quality of Service
-TTP=Tactics, Techniques, and Procedures
-O&M=Operations and Maintenance
-GOTS=Government Off-The-Shelf
-MOTS=Modified Off-The-Shelf
-COTS=Commercial Off-The-Shelf
-IUID=Item Unique Identification
-UID=Unique Identifier
-ATP=Acceptance Test Procedure
-M&S=Modeling and Simulation
-BLOS=Beyond Line of Sight
-LOS=Line of Sight
-A2/AD=Anti-Access/Area Denial
-EXCON=Exercise Control
-CONOPS=Concept of Operations
-POM=Program Objective Memorandum
-FY=Fiscal Year
-FYDP=Future Years Defense Program
-ILS=Integrated Logistics Support
-ILSMP=Integrated Logistics Support Management Plan
-MHE=Material Handling Equipment
-PPE=Personal Protective Equipment
-ISR=Intelligence, Surveillance, and Reconnaissance
-SATCOM=Satellite Communications
-VPN=Virtual Private Network
-QoE=Quality of Experience
-PKI=Public Key Infrastructure
-IAM=Identity and Access Management
-IdAM=Identity and Access Management
-RMF=Risk Management Framework
-POA&M=Plan of Action and Milestones
-DFARS=Defense Federal Acquisition Regulation Supplement
-FAR=Federal Acquisition Regulation
-DCMA=Defense Contract Management Agency
-DoDAF=Department of Defense Architecture Framework
-CMMC=Cybersecurity Maturity Model Certification
-MoM=Minutes of Meeting
-CoS=Chief of Staff
-AoR=Area of Responsibility
-AoC=Area of Concern
-SOP=Standard Operating Procedure
-BAFO=Best and Final Offer
-TAD=Temporary Additional Duty
-TDY=Temporary Duty
-PBL=Performance-Based Logistics
-COR=Contracting Officer’s Representative
-KO=Contracting Officer
-GFE=Government Furnished Equipment
-GFI=Government Furnished Information
-GFP=Government Furnished Property
-CI/CD=Continuous Integration / Continuous Delivery
-CD/CI=Continuous Deployment / Continuous Integration
-FoUO=For Official Use Only
-PoR=Program of Record
-HASC=House Armed Services Committee
-SASC=Senate Armed Services Committee
-ISR=Intelligence, Surveillance, and Reconnaissance
-J&A=Justification and Approval
-AoC=Area of Concern
-BoE=Basis of Estimate
-MoA=Memorandum of Agreement
-MoU=Memorandum of Understanding
-SoW=Statement of Work
-SoO=Statement of Objectives
-CUI=Controlled Unclassified Information
-TAA=Technical Assistance Agreement
-ITAR=International Traffic in Arms Regulations
-EAR=Export Administration Regulations
-TAA=Trade Agreements Act
-FoUO=For Official Use Only
-DFARS=Defense Federal Acquisition Regulation Supplement
-FAR=Federal Acquisition Regulation
-OMB=Office of Management and Budget
-OMBUD=Ombudsman
-HR=Human Resources
-Ops=Operations
-Eng=Engineering
-Acq=Acquisition
-ManTech=Manufacturing Technology
-R&D=Research and Development
-ISR=Intelligence, Surveillance, and Reconnaissance
-ISR&T=Intelligence, Surveillance, Reconnaissance, and Targeting
-PNT=Positioning, Navigation, and Timing
-COMSEC=Communications Security
-TRANSEC=Transmission Security
-INFOSEC=Information Security
-OPSEC=Operations Security
-PERSEC=Personnel Security
-PHYSEC=Physical Security
-ACQ=Acquisition
-AoN=Analysis of Need
-AoE=Analysis of Effectiveness
-AoP=Analysis of Performance
-AoS=Analysis of Suitability
-AoV=Analysis of Variance
-VoI=Value of Information
-VoC=Voice of the Customer
-VoIP=Voice over Internet Protocol
-ISR=Intelligence, Surveillance, and Reconnaissance
-RMF=Risk Management Framework
-CI=Counterintelligence
-AI/ML=Artificial Intelligence / Machine Learning
-AI/DP=Artificial Intelligence / Data Processing
-A&A=Assessment and Authorization
-ECP=Engineering Change Proposal
-MTA=Middle Tier Acquisition
-STIG=Security Technical Implementation Guide
-DoDI=Department of Defense Instruction
-DoDM=Department of Defense Manual
-PPBE=Planning, Programming, Budgeting, and Execution
-FYDP=Future Years Defense Program
-KPP=Key Performance Parameter
-KSAs=Key System Attributes
-ILSP=Integrated Logistics Support Plan
-ILS=Integrated Logistics Support
-ILSM=Integrated Logistics Support Manager
-SRDR=Software Resources Data Report
-PSA=Program Support Agreement
-PBL=Performance-Based Logistics
-BOM=Bill of Materials
-BAS=Base Access System
-BAH=Basic Allowance for Housing
-BAS=Basic Allowance for Subsistence
-PTDY=Permissive Temporary Duty
-COCOM=Combatant Command
-ASR=Acquisition Strategy Review
-ADM=Acquisition Decision Memorandum
-APB=Acquisition Program Baseline
-MSA=Materiel Solution Analysis
-TMRR=Technology Maturation and Risk Reduction
-EMD=Engineering and Manufacturing Development
-FRP=Full Rate Production
-IOC=Initial Operational Capability
-FOC=Full Operational Capability
-OTS=Off-The-Shelf
-MoP=Measure of Performance
-MoE=Measure of Effectiveness
-CTE=Critical Technical Element
-PSR=Program Support Review
-ICD=Initial Capabilities Document
-CDD=Capability Development Document
-CPD=Capability Production Document
-PPP=Public-Private Partnership
-ILSMP=Integrated Logistics Support Management Plan
-ILSPS=Integrated Logistics Support Plan Summary
-ILSRC=Integrated Logistics Support Requirements Checklist
-PoC=Point of Contact
-PoV=Proof of Value
-PoC=Proof of Concept
-PPT=PowerPoint Presentation
-PMR=Program Management Review
-TPM=Technical Performance Measure
-TPME=Technical Performance Measurement Evaluation
-NCR=Non-Conformance Report
-CAR=Corrective Action Request
-PAR=Preventive Action Request
-SCAR=Supplier Corrective Action Request
-SDR=Supply Discrepancy Report
-MDR=Material Discrepancy Report
-RCM=Reliability Centered Maintenance
-CBM=Condition Based Maintenance
-CBM+=Condition Based Maintenance Plus
-BIT=Built-In Test
-BITE=Built-In Test Equipment
-HWIL=Hardware-in-the-Loop
-SWIL=Software-in-the-Loop
-SIL=System Integration Lab
-HIL=Hardware-in-the-Loop
-AoA=Analysis of Alternatives
-T&E=Test and Evaluation
-DT&E=Developmental Test and Evaluation
-OT&E=Operational Test and Evaluation
-IOT&E=Initial Operational Test and Evaluation
-FoS=Family of Systems
-SoS=System of Systems
-FoE=Family of Effectors
-JADO=Joint All-Domain Operations
-JAIC=Joint Artificial Intelligence Center
-JADC2=Joint All-Domain Command and Control
-JADC2-CFT=Joint All-Domain Command and Control Cross Functional Team
-FBL=Functional Baseline
-PBL=Product Baseline
-ABL=Allocated Baseline
-LRIP=Low Rate Initial Production
-FRP=Full Rate Production
-ILS=Integrated Logistics Support
-IUID=Item Unique Identification
-UID=Unique Identifier
-RFID=Radio Frequency Identification
-MTBF=Mean Time Between Failures
-MTTR=Mean Time to Repair
-MTBR=Mean Time Between Removals
-MMH=Mean Maintenance Hours
-AOG=Aircraft on Ground
-OEM=Original Equipment Manufacturer
-PBL=Performance-Based Logistics
-OBE=Out of Band Exception
-CM=Configuration Management
-CMDB=Configuration Management Database
-CMS=Configuration Management System
-CAB=Change Advisory Board
-CCB=Change Control Board
-IV&V=Independent Verification and Validation
-AoIP=Applications over Internet Protocol
-SATCOM=Satellite Communications
-MILSATCOM=Military Satellite Communications
-COTS=Commercial Off-The-Shelf
-MOTS=Modified Off-The-Shelf
-GOTS=Government Off-The-Shelf
-QA=Quality Assurance
-QC=Quality Control
-FPCON=Force Protection Condition
-HPCON=Health Protection Condition
-HPAC=Hazard Prediction and Assessment Capability
-DoDIN=Department of Defense Information Network
-GIG=Global Information Grid
-JIE=Joint Information Environment
-DISN=Defense Information Systems Network
-HBSS=Host-Based Security System
-ACAS=Assured Compliance Assessment Solution
-SABI=Secret and Below Interoperability
-C&A=Certification and Accreditation
-ATO=Authorization to Operate
-ATC=Approval to Connect
-CONOPS=Concept of Operations
-MoD=Ministry of Defence
-MoE=Measure of Effectiveness
-MoP=Measure of Performance
-SWaP=Size, Weight, and Power
-SWaP-C=Size, Weight, Power, and Cost
-RTO=Return to Operation
-BFT=Blue Force Tracking
-BFT2=Blue Force Tracking 2
-SATCOM=Satellite Communications
-MHE=Material Handling Equipment
-MRAP=Mine Resistant Ambush Protected
-TPFDD=Time Phased Force Deployment Data
-TPFDDL=Time Phased Force Deployment Data List
-ISR=Intelligence, Surveillance, and Reconnaissance
-F2T2EA=Find, Fix, Track, Target, Engage, Assess
-OCO=Offensive Cyber Operations
-DCO=Defensive Cyber Operations
-DCO-IDM=Defensive Cyber Operations–Internal Defensive Measures
-JCR=Joint Capabilities Release
-BFT=Blue Force Tracker
-DAGR=Defense Advanced GPS Receiver
-GCCS=Global Command and Control System
-GCCS-J=Global Command and Control System - Joint
-GCCS-A=Global Command and Control System - Army
-DCGS=Distributed Common Ground System
-DCGS-A=Distributed Common Ground System - Army
-DCGS-N=Distributed Common Ground System - Navy
-DCGS-MC=Distributed Common Ground System - Marine Corps
-DCGS-SOF=Distributed Common Ground System - Special Operations Forces
-BAE=British Aerospace
-BMD=Ballistic Missile Defense
-BMDS=Ballistic Missile Defense System
-C-RAM=Counter Rocket, Artillery, and Mortar
-GBAD=Ground-Based Air Defense
-AMD=Air and Missile Defense
-AMDPCS=Air and Missile Defense Planning and Control System
-AMDWS=Air and Missile Defense Workstation
-AFATDS=Advanced Field Artillery Tactical Data System
-NGCV=Next Generation Combat Vehicle
-NGSW=Next Generation Squad Weapon
-PSDS2=Persistent Surveillance and Dissemination System of Systems
-JLTV=Joint Light Tactical Vehicle
-OEF=Operation Enduring Freedom
-OIF=Operation Iraqi Freedom
-NTISR=Non-Traditional Intelligence, Surveillance, and Reconnaissance
-SRP=Soldier Readiness Processing
-CCDR=Combatant Commander
-CoCom=Combatant Command
-PERSTEMPO=Personnel Tempo
-OPTEMPO=Operational Tempo
-DA PAM=Department of the Army Pamphlet
-AR=Army Regulation
-FRAGO=Fragmentary Order
-OPORD=Operations Order
-WARNORD=Warning Order
-SYNCH=Synchronization
-JIPOE=Joint Intelligence Preparation of the Operational Environment
-MIPR=Military Interdepartmental Purchase Request
-SFAC=Soldier and Family Assistance Center
-BASOPS=Base Operations Support
-COMSEC=Communications Security
-INFOSEC=Information Security
-EMSEC=Emissions Security
-SYSTEST=System Test
-SDE=Software Development Environment
-IDE=Integrated Development Environment
-HITL=Hardware-in-the-Loop
-SITL=Software-in-the-Loop
-SIL=System Integration Lab
-DoDAAC=Department of Defense Activity Address Code
-UIC=Unit Identification Code
-UICDS=Unified Incident Command and Decision Support
-DASD=Deputy Assistant Secretary of Defense
-DEPSECDEF=Deputy Secretary of Defense
-SecDef=Secretary of Defense
-SecArmy=Secretary of the Army
-SecNav=Secretary of the Navy
-SECAF=Secretary of the Air Force
-DCGS=Distributed Common Ground System
-C2ISR=Command, Control, Intelligence, Surveillance, and Reconnaissance
-C4=Command, Control, Communications, and Computers
-C5=Command, Control, Communications, Computers, and Combat Systems
-C3I=Command, Control, Communications, and Intelligence
-GOTS=Government Off-The-Shelf
-MOTS=Modified Off-The-Shelf
-SATCOM=Satellite Communications
-BFT=Blue Force Tracker
-DAGR=Defense Advanced GPS Receiver
-SIDPERS=Standard Installation/Division Personnel System
-DIMHRS=Defense Integrated Military Human Resources System
-JNTC=Joint National Training Capability
-JNTC-J=Joint National Training Capability - Joint
-JSCP=Joint Strategic Capabilities Plan
-JSPS=Joint Strategic Planning System
-JSR=Joint Strategy Review
-MDR=Mission Data Repository
-MDR=Material Discrepancy Report
-SAR=Special Access Requirement
-SAP=Special Access Program
-SAPI=Small Arms Protective Insert
-ESAPI=Enhanced Small Arms Protective Insert
-NVG=Night Vision Goggles
-PVS=Passive Vision System
-RSTA=Reconnaissance, Surveillance, and Target Acquisition
-EOD=Explosive Ordnance Disposal
-CBRN=Chemical, Biological, Radiological, and Nuclear
-HAZMAT=Hazardous Materials
-OSINT=Open Source Intelligence
-SIGINT=Signals Intelligence
-HUMINT=Human Intelligence
-MASINT=Measurement and Signature Intelligence
-ELINT=Electronic Intelligence
-IMINT=Imagery Intelligence
-TECHINT=Technical Intelligence
-FINT=Financial Intelligence
-CI=Counterintelligence
-PSYOP=Psychological Operations
-MILDEC=Military Deception
-STRATCOM=Strategic Command
-TRANSCOM=Transportation Command
-AMC=Air Mobility Command
-AFSOC=Air Force Special Operations Command
-ACC=Air Combat Command
-AETC=Air Education and Training Command
-AFMC=Air Force Materiel Command
-USCYBERCOM=U.S. Cyber Command
-USSPACECOM=U.S. Space Command
-AFRL=Air Force Research Laboratory
-AFWERX=Air Force Ventures / Innovation
-DCGS=Distributed Common Ground System
-DCGS-A=Distributed Common Ground System - Army
-DCGS-N=Distributed Common Ground System - Navy
-DCGS-MC=Distributed Common Ground System - Marine Corps
-DCGS-SOF=Distributed Common Ground System - Special Operations Forces
-CSfC=Commercial Solutions for Classified
-IA=Information Assurance
-ISSO=Information Systems Security Officer
-ISSM=Information Systems Security Manager
-RMF=Risk Management Framework
-STIG=Security Technical Implementation Guide
-ATO=Authorization to Operate
-POA&M=Plan of Action and Milestones
-SIPR=Secret Internet Protocol Router
-NIPR=Non-classified Internet Protocol Router
-COTS=Commercial Off-The-Shelf
-TAD=Temporary Additional Duty
-TDY=Temporary Duty
-PTDY=Permissive Temporary Duty
-CONUS=Continental United States
-OCONUS=Outside Continental United States
-TAA=Technical Assistance Agreement
-TAA=Trade Agreements Act
-DFARS=Defense Federal Acquisition Regulation Supplement
-FAR=Federal Acquisition Regulation
-SAM=System for Award Management
-CCR=Central Contractor Registration
-CAGE=Commercial and Government Entity
-DUNS=Data Universal Numbering System
-CLIN=Contract Line Item Number
-SLIN=Sub Line Item Number
-BoO=Base of Operations
-Ao=Area of Operations
-AoR=Area of Responsibility
-AoC=Area of Concern
-CoS=Chief of Staff
-CoCOM=Combatant Command
-CoCom=Combatant Commander
-MoU=Memorandum of Understanding
-MoA=Memorandum of Agreement
-PoP=Period of Performance
-PWS=Performance Work Statement
-SOW=Statement of Work
-SOO=Statement of Objectives
-CP=Command Post
-HQ=Headquarters
-EXCON=Exercise Control
-FoUO=For Official Use Only
-PKI=Public Key Infrastructure
-IAM=Identity and Access Management
-IaaS=Infrastructure as a Service
-PaaS=Platform as a Service
-SaaS=Software as a Service
-BYOD=Bring Your Own Device
-IoT=Internet of Things
-VoIP=Voice over Internet Protocol
-VPN=Virtual Private Network
-QoS=Quality of Service
-QoE=Quality of Experience
-BOM=Bill of Materials
-MTTR=Mean Time to Repair
-MTBF=Mean Time Between Failures
-MTBR=Mean Time Between Removals
-MMH=Mean Maintenance Hours
-ILS=Integrated Logistics Support
-ILSMP=Integrated Logistics Support Management Plan
-ILSP=Integrated Logistics Support Plan
-ILSRC=Integrated Logistics Support Requirements Checklist
-CBM=Condition-Based Maintenance
-CBM+=Condition-Based Maintenance Plus
-SWaP=Size, Weight, and Power
-SWaP-C=Size, Weight, Power, and Cost
-HWIL=Hardware-in-the-Loop
-SWIL=Software-in-the-Loop
-SIL=System Integration Lab
-BIT=Built-In Test
-BITE=Built-In Test Equipment
-CM=Configuration Management
-CMDB=Configuration Management Database
-CMS=Configuration Management System
-CAB=Change Advisory Board
-CCB=Change Control Board
-IV&V=Independent Verification and Validation
-JADO=Joint All-Domain Operations
-JADC2=Joint All-Domain Command and Control
-JADC2-CFT=Joint All-Domain Command and Control Cross Functional Team
-FoS=Family of Systems
-SoS=System of Systems
-FoE=Family of Effectors
-PSA=Program Support Agreement
-PSR=Program Support Review
-ICD=Initial Capabilities Document
-CDD=Capability Development Document
-CPD=Capability Production Document
-APB=Acquisition Program Baseline
-ADM=Acquisition Decision Memorandum
-ASR=Acquisition Strategy Review
-MSA=Materiel Solution Analysis
-TMRR=Technology Maturation and Risk Reduction
-EMD=Engineering and Manufacturing Development
-FRP=Full Rate Production
-IOC=Initial Operational Capability
-FOC=Full Operational Capability
-Mil Std=Military Standard
-Mil Spec=Military Specification
-Mil Dep=Military Department
-Mil Con=Military Construction
-IPv4=Internet Protocol version 4
-IPv6=Internet Protocol version 6
-A2/AD=Anti-Access/Area Denial
-BLOS=Beyond Line of Sight
-LOS=Line of Sight
-M&S=Modeling and Simulation
-O&M=Operations and Maintenance
-IOT&E=Initial Operational Test and Evaluation
-FoUO=For Official Use Only
-IUID=Item Unique Identification
-UID=Unique Identifier
-COTS=Commercial Off-The-Shelf
-GOTS=Government Off-The-Shelf
-MOTS=Modified Off-The-Shelf
-OS=Operating System
-NT=New Technology
-CD=Configuration Document
-CI=Counterintelligence
-CA=Certificate Authority
-CI/CD=Continuous Integration / Continuous Deployment
-PoP=Period of Performance
-BoO=Base of Operations
-Ao=Area of Operations
-AoR=Area of Responsibility
-AoC=Area of Concern
-RMF=Risk Management Framework
-IA=Information Assurance
-IaaS=Infrastructure as a Service
-PaaS=Platform as a Service
-SaaS=Software as a Service
-BYOD=Bring Your Own Device
-IoT=Internet of Things
-VoIP=Voice over Internet Protocol
-VPN=Virtual Private Network
-QoS=Quality of Service
-QoE=Quality of Experience
-PDR=Preliminary Design Review
-CDRL=Contract Data Requirements List
-BOM=Bill of Materials
-MTBF=Mean Time Between Failures
-MTTR=Mean Time to Repair
-MTBR=Mean Time Between Removals
-MMH=Mean Maintenance Hours
-ILS=Integrated Logistics Support
-ILSMP=Integrated Logistics Support Management Plan
-ILSP=Integrated Logistics Support Plan
-ILSRC=Integrated Logistics Support Requirements Checklist
-CBM=Condition-Based Maintenance
-CBM+=Condition-Based Maintenance Plus
-SWaP=Size, Weight, and Power
-SWaP-C=Size, Weight, Power, and Cost
-HWIL=Hardware-in-the-Loop
-SWIL=Software-in-the-Loop
-SIL=System Integration Lab
-BIT=Built-In Test
-BITE=Built-In Test Equipment
-CM=Configuration Management
-CMDB=Configuration Management Database
-CMS=Configuration Management System
-CAB=Change Advisory Board
-CCB=Change Control Board
-IV&V=Independent Verification and Validation
-J&A=Justification and Approval
-TPM=Technical Performance Measure
-TPME=Technical Performance Measurement Evaluation
-SoS=System of Systems
-FoS=Family of Systems
-FoE=Family of Effectors
-KPP=Key Performance Parameter
-KSA=Key System Attribute
-AoA=Analysis of Alternatives
-MDA=Milestone Decision Authority
-MoE=Measure of Effectiveness
-MoP=Measure of Performance
-CTE=Critical Technical Element
-PSA=Program Support Agreement
-PSR=Program Support Review
-ICD=Initial Capabilities Document
-CDD=Capability Development Document
-CPD=Capability Production Document
-APB=Acquisition Program Baseline
-ADM=Acquisition Decision Memorandum
-ASR=Acquisition Strategy Review
-MSA=Materiel Solution Analysis
-TMRR=Technology Maturation and Risk Reduction
-EMD=Engineering and Manufacturing Development
-FRP=Full Rate Production
-IOC=Initial Operational Capability
-FOC=Full Operational Capability
-OTS=Off-The-Shelf
-LNO=Liaison Officer
-PoR=Program of Record
-PMR=Program Management Review
-PMP=Project Management Plan
-CONOPS=Concept of Operations
-MoU=Memorandum of Understanding
-MoA=Memorandum of Agreement
-SoW=Statement of Work
-SoO=Statement of Objectives
-PWS=Performance Work Statement
-SLIN=Sub Line Item Number
-CLIN=Contract Line Item Number
-COR=Contracting Officer’s Representative
-KO=Contracting Officer
-FAR=Federal Acquisition Regulation
-DFARS=Defense Federal Acquisition Regulation Supplement
-GFE=Government Furnished Equipment
-GFP=Government Furnished Property
-GFI=Government Furnished Information
-BAFO=Best and Final Offer
-LPTA=Lowest Price Technically Acceptable
-PT=Physical Training
-TDY=Temporary Duty
-TAD=Temporary Additional Duty
-PTDY=Permissive Temporary Duty
-CONUS=Continental United States
-OCONUS=Outside Continental United States
-BAS=Basic Allowance for Subsistence
-BAH=Basic Allowance for Housing
-MHE=Material Handling Equipment
-MRAP=Mine Resistant Ambush Protected
-JLTV=Joint Light Tactical Vehicle
-NGCV=Next Generation Combat Vehicle
-NGSW=Next Generation Squad Weapon
-NTISR=Non-Traditional Intelligence, Surveillance, and Reconnaissance
-ISR=Intelligence, Surveillance, and Reconnaissance
-SATCOM=Satellite Communications
-JADC2=Joint All-Domain Command and Control
-JADO=Joint All-Domain Operations
-JADC2-CFT=Joint All-Domain Command and Control Cross Functional Team
-CSfC=Commercial Solutions for Classified
-IDAM=Identity and Access Management
-PKI=Public Key Infrastructure
-PKE=Public Key Encryption
-ACAS=Assured Compliance Assessment Solution
-HBSS=Host-Based Security System
-STIG=Security Technical Implementation Guide
-POA&M=Plan of Action and Milestones
-ATO=Authorization to Operate
-ATC=Approval to Connect
-ATO-C=Authorization to Connect
-IAM=Identity and Access Management
-IAVM=Information Assurance Vulnerability Management
-IAVA=Information Assurance Vulnerability Alert
-SE&I=Systems Engineering and Integration
-SDD=System Design and Development
-LRIP=Low Rate Initial Production
-PRR=Production Readiness Review
-TRR=Test Readiness Review
-SRR=System Requirements Review
-CDR=Critical Design Review
-PDR=Preliminary Design Review
-FDR=Final Design Review
-ATP=Acceptance Test Procedure
-MSR=Mission Success Rate
-QDR=Quadrennial Defense Review
-FY=Fiscal Year
-FYDP=Future Years Defense Program
-PPBE=Planning, Programming, Budgeting, and Execution
-OML=Order of Merit List
-EDM=Engineering Development Model
-MTM=Mean Time to Mitigate
-CT=Counterterrorism
-CTF=Counter Threat Finance
-FMS=Foreign Military Sales
-FMF=Foreign Military Financing
-PPP=Public-Private Partnership
-BoV=Board of Visitors
-DoDI=Department of Defense Instruction
-DoDM=Department of Defense Manual
-DRRS=Defense Readiness Reporting System
-DRMO=Defense Reutilization and Marketing Office
-MIPR=Military Interdepartmental Purchase Request
-MTF=Medical Treatment Facility
-BCT=Brigade Combat Team
-Cbt Tm=Combat Team
-MTMC=Military Traffic Management Command
-AMC=Air Mobility Command
-AFMC=Air Force Materiel Command
-AFRC=Air Force Reserve Command
-ANG=Air National Guard
-AETC=Air Education and Training Command
-ACC=Air Combat Command
-USCYBERCOM=United States Cyber Command
-USSPACECOM=United States Space Command
-STRATCOM=Strategic Command
-TRANSCOM=Transportation Command
-PACOM=Pacific Command
-EUCOM=European Command
-AFRICOM=Africa Command
-CENTCOM=Central Command
-NORTHCOM=Northern Command
-SOUTHCOM=Southern Command
-JTF=Joint Task Force
-JFACC=Joint Force Air Component Commander
-JFLCC=Joint Force Land Component Commander
-JFMCC=Joint Force Maritime Component Commander
-CCDR=Combatant Commander
-OEF=Operation Enduring Freedom
-OIF=Operation Iraqi Freedom
-OPTEMPO=Operational Tempo
-PERSTEMPO=Personnel Tempo
-WARNORD=Warning Order
-OPORD=Operations Order
-FRAGORD=Fragmentary Order
-EXORD=Execute Order
-CONPLAN=Concept Plan
-OPLAN=Operations Plan
-RFF=Request for Forces
-RFQ=Request for Quote
-RFP=Request for Proposal
-BAA=Broad Agency Announcement
-JIEDDO=Joint Improvised Explosive Device Defeat Organization
-FOB=Forward Operating Base
-COIN=Counterinsurgency
-GWOT=Global War on Terrorism
-APC=Armored Personnel Carrier
-HMMWV=High Mobility Multipurpose Wheeled Vehicle
-LMTV=Light Medium Tactical Vehicle
-FMTV=Family of Medium Tactical Vehicles
-PNT=Positioning, Navigation, and Timing
-GNSS=Global Navigation Satellite System
-JSF=Joint Strike Fighter
-ISR&T=Intelligence, Surveillance, Reconnaissance, and Targeting
-NT=New Technology
-CD=Compact Disc
-EMCON=Emissions Control
-NAVWAR=Naval Information Warfare Systems Command
-NAVSEA=Naval Sea Systems Command
-NAVAIR=Naval Air Systems Command
-NAVSUP=Naval Supply Systems Command
-MARFORCYBER=Marine Corps Forces Cyberspace Command
-MARFORCOM=Marine Corps Forces Command
-MARCENT=Marine Corps Forces Central Command
-PPBS=Planning, Programming, and Budgeting System
-JSCP=Joint Strategic Capabilities Plan
-JSPS=Joint Strategic Planning System
-JOPES=Joint Operation Planning and Execution System
-JPRA=Joint Personnel Recovery Agency
-JIOC=Joint Intelligence Operations Center
-JSOC=Joint Special Operations Command
-DAGR=Defense Advanced GPS Receiver
-FBCB2=Force XXI Battle Command Brigade and Below
-CPOF=Command Post of the Future
-AFATDS=Advanced Field Artillery Tactical Data System
-AMDWS=Air and Missile Defense Workstation
-AMDPCS=Air and Missile Defense Planning and Control System
-TACLAN=Theater Access Command Local Area Network
-DIMHRS=Defense Integrated Military Human Resources System
-JNTC=Joint National Training Capability
-SIDPERS=Standard Installation/Division Personnel System
-PSDS2=Persistent Surveillance and Dissemination System of Systems
-GIG=Global Information Grid
-JIE=Joint Information Environment
-DISN=Defense Information Systems Network
-SABI=Secret and Below Interoperability
-DoDIN=Department of Defense Information Network
-DCO=Defensive Cyber Operations
-OCO=Offensive Cyber Operations
-DCO-IDM=Defensive Cyber Operations Internal Defensive Measures
-CND=Computer Network Defense
-CNA=Computer Network Attack
-CNE=Computer Network Exploitation
-PEO=Program Executive Officer
-PM=Program Manager
-SE=Systems Engineering
-SE&I=Systems Engineering and Integration
-ILS=Integrated Logistics Support
-QA=Quality Assurance
-QC=Quality Control
-QMS=Quality Management System
-ISO=International Organization for Standardization
-ISO/IEC=International Organization for Standardization / International Electrotechnical Commission
-SSP=System Security Plan
-SAP=Special Access Program
-SAR=Special Access Requirement
-SAPI=Small Arms Protective Insert
-ESAPI=Enhanced Small Arms Protective Insert
-NVG=Night Vision Goggles
-PVS=Passive Vision System
-CBRN=Chemical, Biological, Radiological, and Nuclear
-HAZMAT=Hazardous Materials
-JSTARS=Joint Surveillance Target Attack Radar System
-NTISR=Non-Traditional ISR
-UAS=Unmanned Aircraft System
-UAV=Unmanned Aerial Vehicle
-UCAV=Unmanned Combat Aerial Vehicle
-RPV=Remotely Piloted Vehicle
-RPA=Remotely Piloted Aircraft
-C-UAS=Counter Unmanned Aircraft System
-CUAS=Counter Unmanned Aircraft System
-DEW=Directed Energy Weapon
-HEMP=High-Altitude Electromagnetic Pulse
-JWA=Joint Warfighting Assessment
-LLR=Low-Level Requirements
-SLR=System Level Requirements
-DLR=Depot Level Repairable
-NSN=National Stock Number
-NIIN=National Item Identification Number
-AAC=Acquisition Advice Code
-COCOM=Combatant Command
-CDS=Cross Domain Solution
-ICAM=Identity, Credential, and Access Management
-TTP=Tactics, Techniques, and Procedures
-HASC=House Armed Services Committee
-SASC=Senate Armed Services Committee
-PBSA=Performance-Based Service Acquisition
-NDAA=National Defense Authorization Act
-JROC=Joint Requirements Oversight Council
-JCIDS=Joint Capabilities Integration and Development System
-JCA=Joint Capability Area
-COCOM=Combatant Command
-SOP=Standard Operating Procedure
-DLA=Defense Logistics Agency
-DTRA=Defense Threat Reduction Agency
-DISA=Defense Information Systems Agency
-DARPA=Defense Advanced Research Projects Agency
-DAU=Defense Acquisition University
-FMS=Foreign Military Sales
-FMF=Foreign Military Financing
-LOA=Letter of Offer and Acceptance
-CCDR=Combatant Commander
-CP=Command Post
-GSA=General Services Administration
-DoC=Department of Commerce
-DoS=Department of State
-DoT=Department of Transportation
-DoE=Department of Energy
-EPA=Environmental Protection Agency
-FAA=Federal Aviation Administration
-OSHA=Occupational Safety and Health Administration
-GAO=Government Accountability Office
-OMB=Office of Management and Budget
-OLR=Operational Lessons Report
-AR=Army Regulation
-DA PAM=Department of the Army Pamphlet
-DF=Design Freeze
-FOM=Figure of Merit
-MOM=Method of Measurement
-ROM=Rough Order of Magnitude
-GOTS=Government Off-The-Shelf
-OTS=Off-The-Shelf
-UON=Urgent Operational Need
-JUON=Joint Urgent Operational Need
-JEON=Joint Emergent Operational Need
-JCTD=Joint Capability Technology Demonstration
-ACTD=Advanced Concept Technology Demonstration
-CDL=Common Data Link
-LCT=Low-Cost Target
-HMMWV=High Mobility Multipurpose Wheeled Vehicle
-FMTV=Family of Medium Tactical Vehicles
-JLENS=Joint Land Attack Cruise Missile Defense Elevated Netted Sensor
-LCS=Littoral Combat Ship
-SSDS=Ship Self Defense System
-C2PC=Command and Control Personal Computer
-C2=Command and Control
-C2I=Command, Control, and Intelligence
-C4I=Command, Control, Communications, and Computers, Intelligence
-C5ISR=Command, Control, Communications, Computers, Combat Systems, Intelligence, Surveillance, Reconnaissance
-HPC=High Performance Computing
-IDM=Information Dissemination Management
-ATIS=Army Training Information System
-ATMP=Army Test and Mission Platform
-AV=Autonomous Vehicle
-GV=Ground Vehicle
-UUV=Unmanned Underwater Vehicle
-USV=Unmanned Surface Vehicle
-UXS=Unmanned System
-FVL=Future Vertical Lift
-FVL-M=Future Vertical Lift–Medium
-FVL-L=Future Vertical Lift–Light
-FVL-H=Future Vertical Lift–Heavy
-CHS=Common Hardware Suite
-CPOF=Command Post of the Future
-JCR=Joint Capabilities Release
-JBC-P=Joint Battle Command–Platform
-MASCAL=Mass Casualty
-MEDLOG=Medical Logistics
-MEDPROS=Medical Protection System
-MEDEVAC=Medical Evacuation
-TCCC=Tactical Combat Casualty Care
-EMEDS=Expeditionary Medical Support
-SRP=Soldier Readiness Processing
-MEB=Medical Evaluation Board
-PEB=Physical Evaluation Board
-P4T=Pathway for Transition
-SGLI=Servicemembers’ Group Life Insurance
-TRICARE=Military Health System Insurance
-DHA=Defense Health Agency
-MTSS=Medical Treatment Support System
-HPSP=Health Professions Scholarship Program
-BPA=Blanket Purchase Agreement
-BOA=Basic Ordering Agreement
-IDIQ=Indefinite Delivery, Indefinite Quantity
-TO=Task Order
-PO=Purchase Order
-PR=Purchase Request
-CO=Contracting Officer
-COR=Contracting Officer Representative
-CAO=Contract Administration Office
-ACO=Administrative Contracting Officer
-DCMA=Defense Contract Management Agency
-WAWF=Wide Area Workflow
-PIEE=Procurement Integrated Enterprise Environment
-SAMS=Standard Army Maintenance System
-GCSS-A=Global Combat Support System–Army
-GCSS-MC=Global Combat Support System–Marine Corps
-LCMC=Life Cycle Management Command
-PSA=Product Support Agreement
-PBL=Performance-Based Logistics
-PSI=Product Support Integrator
-PSM=Product Support Manager
-ILS=Integrated Logistics Support
-CLPS=Contractor Logistics Support
-CLS=Contractor Logistics Support
-LRU=Line Replaceable Unit
-SRU=Shop Replaceable Unit
-BIT=Built-In Test
-BITE=Built-In Test Equipment
-CBM=Condition-Based Maintenance
-CM=Configuration Management
-CCB=Change Control Board
-CAB=Change Advisory Board
-CCRI=Command Cyber Readiness Inspection
-RMF=Risk Management Framework
-ATO=Authorization to Operate
-POA&M=Plan of Action and Milestones
-IAVM=Information Assurance Vulnerability Management
-IAVA=Information Assurance Vulnerability Alert
-CUI=Controlled Unclassified Information
-FOUO=For Official Use Only
-PII=Personally Identifiable Information
-PHI=Protected Health Information
-CND=Computer Network Defense
-CNA=Computer Network Attack
-CNE=Computer Network Exploitation
-DCO=Defensive Cyber Operations
-OCO=Offensive Cyber Operations
-SETA=Systems Engineering and Technical Assistance
-FTE=Full-Time Equivalent
-LOE=Level of Effort
-CPFF=Cost Plus Fixed Fee
-CPIF=Cost Plus Incentive Fee
-CPAF=Cost Plus Award Fee
-FFP=Firm Fixed Price
-T&M=Time and Materials
-OT=Other Transaction
-OTA=Other Transaction Authority
-UCA=Undefinitized Contract Action
-DRFP=Draft Request for Proposal
-IFB=Invitation for Bid
-SPOC=Single Point of Contact
-AOR=Area of Responsibility
-COCOM=Combatant Command
-POM=Program Objective Memorandum
-PPBE=Planning, Programming, Budgeting, and Execution
-FYDP=Future Years Defense Program
-QDR=Quadrennial Defense Review
-NMS=National Military Strategy
-NDS=National Defense Strategy
-NSS=National Security Strategy
-JSCP=Joint Strategic Capabilities Plan
-JOPES=Joint Operation Planning and Execution System
-TPFDD=Time Phased Force Deployment Data
-TPFDDL=Time Phased Force Deployment Data List
-RFF=Request for Forces
-OLR=Operational Lessons Report
-OPLAN=Operations Plan
-CONPLAN=Concept Plan
-EXORD=Execute Order
-WARNORD=Warning Order
-FRAGORD=Fragmentary Order
-SYNCH=Synchronization
-WBS=Work Breakdown Structure
-OBS=Organizational Breakdown Structure
-CBS=Cost Breakdown Structure
-RACI=Responsible, Accountable, Consulted, Informed
-RMP=Risk Management Plan
-IMP=Integrated Master Plan
-IMS=Integrated Master Schedule
-EVMS=Earned Value Management System
-EVM=Earned Value Management
-CPR=Contract Performance Report
-IPMR=Integrated Program Management Report
-CFSR=Contract Funds Status Report
-CDRL=Contract Data Requirements List
-SOW=Statement of Work
-SOO=Statement of Objectives
-PWS=Performance Work Statement
-QASP=Quality Assurance Surveillance Plan
-SSR=Subcontracting Summary Report
-SF1449=Solicitation/Contract/Order for Commercial Items
-DD254=Department of Defense Contract Security Classification Specification
-DD250=Material Inspection and Receiving Report
-DD2579=Small Business Coordination Record
-DD1423=Contract Data Requirements List Form
-DD1149=Requisition and Invoice/Shipping Document
-DD1494=Frequency Allocation Application
-SF30=Amendment of Solicitation / Modification of Contract
-SF33=Solicitation, Offer, and Award
-SF26=Award/Contract
-DD254=DoD Contract Security Classification Specification
-DD2579=Small Business Coordination Record
-DD2659=Inherently Governmental Functions Inventory
-JITC=Joint Interoperability Test Command
-IAW=In Accordance With
-CBRN=Chemical, Biological, Radiological, and Nuclear
-CBRNE=Chemical, Biological, Radiological, Nuclear, and Explosives
-WMD=Weapons of Mass Destruction
-HSPD=Homeland Security Presidential Directive
-PPD=Presidential Policy Directive
-ICD=Initial Capabilities Document
-CDD=Capability Development Document
-CPD=Capability Production Document
-AoA=Analysis of Alternatives
-JCIDS=Joint Capabilities Integration and Development System
-DOTMLPF=Doctrine, Organization, Training, Materiel, Leadership and Education, Personnel, Facilities
-DOTMLPF-P=Doctrine, Organization, Training, Materiel, Leadership and Education, Personnel, Facilities, Policy
-JCIDS=Joint Capabilities Integration and Development System
-CPG=Cybersecurity Program Guidance
-CDS=Cross Domain Solution
-CDSE=Center for Development of Security Excellence
-SAP=Special Access Program
-SAR=Special Access Requirement
-SAPI=Small Arms Protective Insert
-ESAPI=Enhanced Small Arms Protective Insert
-PPSM=Ports, Protocols, and Services Management
-STIG=Security Technical Implementation Guide
-HBSS=Host-Based Security System
-ACAS=Assured Compliance Assessment Solution
-RMF=Risk Management Framework
-POA&M=Plan of Action and Milestones
-ATO=Authorization to Operate
-ATC=Approval to Connect
-FISMA=Federal Information Security Modernization Act
-OMB=Office of Management and Budget
-NIST=National Institute of Standards and Technology
-CNSS=Committee on National Security Systems
-CNSSI=Committee on National Security Systems Instruction
-CNSSP=Committee on National Security Systems Policy
-NSA=National Security Agency
-CSS=Central Security Service
-DISA=Defense Information Systems Agency
-DAU=Defense Acquisition University
-FAI=Federal Acquisition Institute
-OUSD=Office of the Under Secretary of Defense
-USD(A&S)=Under Secretary of Defense for Acquisition and Sustainment
-USD(R&E)=Under Secretary of Defense for Research and Engineering
-USD(I&S)=Under Secretary of Defense for Intelligence and Security
-USD(C)=Under Secretary of Defense Comptroller
-USD(P)=Under Secretary of Defense for Policy
-USD(P&R)=Under Secretary of Defense for Personnel and Readiness
-DCSA=Defense Counterintelligence and Security Agency
-GSA=General Services Administration
-OMBUD=Ombudsman
-HCA=Head of Contracting Activity
-SSA=Source Selection Authority
-SSO=Special Security Officer
-FSO=Facility Security Officer
-PSO=Program Security Officer
-SCG=Security Classification Guide
-PSP=Personnel Security Program
-SAPCO=Special Access Program Central Office
-SAPOC=Special Access Program Oversight Committee
-CPSO=Contractor Program Security Officer
-COMSEC=Communications Security
-INFOSEC=Information Security
-EMSEC=Emissions Security
-TEMPEST=Transient Electromagnetic Pulse Emanation Standard
-OPSEC=Operations Security
-PERSEC=Personnel Security
-PHYSEC=Physical Security
-FP=Force Protection
-FPCON=Force Protection Condition
-HPCON=Health Protection Condition
-FPCON=Force Protection Condition
-CUI=Controlled Unclassified Information
-FOUO=For Official Use Only
-PII=Personally Identifiable Information
-PHI=Protected Health Information
-COOP=Continuity of Operations
-COG=Continuity of Government
-NIMS=National Incident Management System
-ICS=Incident Command System
-EMAC=Emergency Management Assistance Compact
-COGCON=Continuity of Government Readiness Condition
-NIPP=National Infrastructure Protection Plan
-NISTIR=National Institute of Standards and Technology Interagency Report
-CCRI=Command Cyber Readiness Inspection
-CSIRT=Computer Security Incident Response Team
-CERT=Computer Emergency Response Team
-CSIRC=Computer Security Incident Response Capability
-SOC=Security Operations Center
-IOC=Initial Operational Capability
-FOC=Full Operational Capability
-IOC=International Olympic Committee (overlaps, but sometimes referenced in security)
-CM=Configuration Management
-CAB=Change Advisory Board
-CCB=Change Control Board
-SCM=Software Configuration Management
-ECP=Engineering Change Proposal
-PRR=Production Readiness Review
-TRR=Test Readiness Review
-SRR=System Requirements Review
-CDR=Critical Design Review
-FDR=Final Design Review
-ATP=Acceptance Test Procedure
-LRIP=Low Rate Initial Production
-FRP=Full Rate Production
-EDM=Engineering Development Model
-PBL=Performance-Based Logistics
-ILS=Integrated Logistics Support
-CLS=Contractor Logistics Support
-LRU=Line Replaceable Unit
-SRU=Shop Replaceable Unit
-AOG=Aircraft on Ground
-MMH=Mean Maintenance Hours
-MTTR=Mean Time to Repair
-MTBF=Mean Time Between Failures
-MSR=Mission Success Rate
-ROC=Required Operational Capability
-FOC=Full Operational Capability
-RFI=Request for Information
-RFP=Request for Proposal
-IFB=Invitation for Bid
-SOW=Statement of Work
-SOO=Statement of Objectives
-PWS=Performance Work Statement
-QASP=Quality Assurance Surveillance Plan
-CLIN=Contract Line Item Number
-SLIN=Sub Line Item Number
-WAWF=Wide Area Workflow
-PIEE=Procurement Integrated Enterprise Environment
-SAM=System for Award Management
-CCR=Central Contractor Registration
-CAGE=Commercial and Government Entity Code
-DUNS=Data Universal Numbering System
-FAPIIS=Federal Awardee Performance and Integrity Information System
-FPDS=Federal Procurement Data System
-CPARS=Contractor Performance Assessment Reporting System
-SPOT=Synchronised Predeployment and Operational Tracker
-DFAS=Defense Finance and Accounting Service
-DCPS=Defense Civilian Pay System
-DCPDS=Defense Civilian Personnel Data System
-DTS=Defense Travel System
-DTMO=Defense Travel Management Office
-TSP=Thrift Savings Plan
-LES=Leave and Earnings Statement
-SF50=Notification of Personnel Action
-SF52=Request for Personnel Action
-FERS=Federal Employees Retirement System
-CSRS=Civil Service Retirement System
-OPM=Office of Personnel Management
-HRO=Human Resources Office
-CHCO=Chief Human Capital Officer
-SPS=Standard Procurement System
-DAWIA=Defense Acquisition Workforce Improvement Act
-PMBOK=Project Management Body of Knowledge
-PMP=Project Management Professional
-DAU=Defense Acquisition University
-FAI=Federal Acquisition Institute
-T&E=Test and Evaluation
-DT&E=Developmental Test and Evaluation
-OT&E=Operational Test and Evaluation
-IOT&E=Initial Operational Test and Evaluation
-BLUF=Bottom Line Up Front
-RTB=Return to Base
-RTD=Return to Duty
-DTS=Defense Transportation System
-TPFDD=Time Phased Force Deployment Data
-FPCON=Force Protection Condition
-HPCON=Health Protection Condition
-SOP=Standard Operating Procedure
-TTP=Tactics, Techniques, and Procedures
-TACSOP=Tactical Standard Operating Procedure
-COA=Course of Action
-COP=Common Operating Picture
-ISR=Intelligence, Surveillance, and Reconnaissance
-JISR=Joint Intelligence, Surveillance, and Reconnaissance
-SIGINT=Signals Intelligence
-COMINT=Communications Intelligence
-ELINT=Electronic Intelligence
-HUMINT=Human Intelligence
-OSINT=Open Source Intelligence
-MASINT=Measurement and Signature Intelligence
-TECHINT=Technical Intelligence
-FININT=Financial Intelligence
-IMINT=Imagery Intelligence
-FINT=Forensic Intelligence
-CI=Counterintelligence
-PSYOP=Psychological Operations
-MILDEC=Military Deception
-EW=Electronic Warfare
-EP=Electronic Protection
-ES=Electronic Support
-EA=Electronic Attack
-EMI=Electromagnetic Interference
-EMC=Electromagnetic Compatibility
-TEMPEST=Transient Electromagnetic Pulse Emanation Standard
-DEW=Directed Energy Weapon
-HEL=High Energy Laser
-RF=Radio Frequency
-UHF=Ultra High Frequency
-VHF=Very High Frequency
-HF=High Frequency
-SATCOM=Satellite Communications
-MILSATCOM=Military Satellite Communications
-PLGR=Precision Lightweight GPS Receiver
-GB-GPS=Ground-Based Global Positioning System
-DAGR=Defense Advanced GPS Receiver
-NVG=Night Vision Goggles
-PVS=Passive Vision System
-I2=Image Intensifier
-EO=Electro-Optical
-IR=Infrared
-SWIR=Shortwave Infrared
-MWIR=Midwave Infrared
-LWIR=Longwave Infrared
-SAR=Synthetic Aperture Radar
-MTI=Moving Target Indicator
-FOPEN=Foliage Penetration
-TPQ=Target Positioning Radar
-CSAR=Combat Search and Rescue
-PR=Personnel Recovery
-CASEVAC=Casualty Evacuation
-MEDEVAC=Medical Evacuation
-CLS=Combat Lifesaver
-TCCC=Tactical Combat Casualty Care
-CT=Counterterrorism
-C-IED=Counter Improvised Explosive Device
-C-UAS=Counter Unmanned Aircraft System
-FP=Force Protection
-IED=Improvised Explosive Device
-VBIED=Vehicle-Borne Improvised Explosive Device
-PBIED=Person-Borne Improvised Explosive Device
-HME=Homemade Explosives
-WIT=Weapons Intelligence Team
-CIED=Counter IED
-SWAT=Special Weapons and Tactics
-SRR=Special Reconnaissance Regiment
-JSOC=Joint Special Operations Command
-AWG=Asymmetric Warfare Group
-JIEDDO=Joint Improvised Explosive Device Defeat Organization
-AFSOC=Air Force Special Operations Command
-MARSOC=Marine Corps Forces Special Operations Command
-NSW=Naval Special Warfare
-SOF=Special Operations Forces
-USSOCOM=United States Special Operations Command
-SOCOM=Special Operations Command
-SOJTF=Special Operations Joint Task Force
-GCC=Geographic Combatant Command
-FCC=Functional Combatant Command
-JTF=Joint Task Force
-CJTF=Combined Joint Task Force
-MNFI=Multi-National Force Iraq
-MNF-I=Multi-National Force - Iraq
-CJFLCC=Combined Joint Force Land Component Command
-JFACC=Joint Force Air Component Command
-JFMCC=Joint Force Maritime Component Command
-JFC=Joint Force Commander
-OIC=Officer in Charge
-NCOIC=Non-Commissioned Officer in Charge
-XO=Executive Officer
-CO=Commanding Officer
-DC=Deputy Commander
-SGT=Sergeant
-CPT=Captain
-LTC=Lieutenant Colonel
-COL=Colonel
-BG=Brigadier General
-MG=Major General
-LTG=Lieutenant General
-GEN=General
-CSM=Command Sergeant Major
-SGM=Sergeant Major
-SMA=Sergeant Major of the Army
-1SG=First Sergeant
-PSG=Platoon Sergeant
-SL=Squad Leader
-TL=Team Leader
-FO=Forward Observer
-FAC=Forward Air Controller
-JTAC=Joint Terminal Attack Controller
-JFO=Joint Fires Observer
-RTO=Radio Telephone Operator
-TACP=Tactical Air Control Party
-PCC=Pre-Combat Checks
-PCI=Pre-Combat Inspections
-TC=Track Commander
-DCG=Deputy Commanding General
-DCMA=Defense Contract Management Agency
-DPAS=Defense Priorities and Allocations System
-PAO=Public Affairs Office
-PA=Public Affairs
-IO=Information Operations
-STRATCOM=Strategic Command
-TRANSCOM=Transportation Command
-C3=Command, Control, Communications
-C4=Command, Control, Communications, Computers
-C5=Command, Control, Communications, Computers, Combat Systems
+Mil Spec
+Mil Dep
+IPv4
+IPv6
+MILPER
+MilCon
+A2/AD
+BLOS
+LOS
+M&S
+O&M
+CONOPS
+IOT&E
+FOUO
+S&TI
+MDA
+S&T
+UAS
+UXO
+UX
+OEF
+OIF
+Mil 
+FY
+BCT
+Cbt
+VPN
+TTP
+SATCOM
+EXCON
+JIEDDO
+SLIN
+CLIN
+POA&M
+RMF
+IA
+IAVA
+POM
+PBSA
+BOA
+BPA
+BPA Call
+COTS
+GOTS
+MOTS
+UID
+IUID
+QDR
+ROI
+COOP
+ACAT
+IAW
+TAD
+TDY
+COP
+ATP
+PDR
+CDRL
+MTOE
+OCIE
+PMCS
+RDTE
+FMS
+FMF
+PPP
+SLA
+VAR
+QA
+QC
+P&P
+GFE
+GFP
+GFI
+FYDP
+AOR
+R&D
+OJT
+IPR
+MSA
+SPOT
+BOM
+ILS
+ILSMP
+ILSPS
+FBO
+CCR
+SAM
+CFR
+OCONUS
+CONUS
+SECAF
+SecArmy
+SecNav
+DEPSECDEF
+JSF
+OS
+IT
+AI
+ML
+NT
+CD
+CI
+CA
+CoE
+C2
+C4
+C5
+CS
+Iaw
+IaaS
+PaaS
+SaaS
+BYOD
+IoT
+OT
+DT
+FoS
+SoS
+AoA
+S&T
+R&D
+S&TI
+PM
+SA
+KP
+FTE
+LoE
+PoP
+PT
+QoS
+TTP
+O&M
+GOTS
+MOTS
+COTS
+IUID
+UID
+ATP
+M&S
+BLOS
+LOS
+A2/AD
+EXCON
+CONOPS
+POM
+FY
+FYDP
+ILS
+ILSMP
+MHE
+PPE
+ISR
+SATCOM
+QoE
+PKI
+IAM
+IdAM
+RMF
+POA&M
+DFARS
+FAR
+DCMA
+DoDAF
+CMMC
+MoM
+CoS
+AoR
+AoC
+SOP
+BAFO
+TAD
+TDY
+PBL
+COR
+KO
+GFE
+GFI
+GFP
+CI/CD
+CD/CI
+FoUO
+PoR
+HASC
+SASC
+ISR
+J&A
+AoC
+BoE
+MoA
+MoU
+SoW
+SoO
+CUI
+TAA
+ITAR
+EAR
+TAA
+FoUO
+DFARS
+FAR
+OMB
+OMBUD
+HR
+Ops
+Eng
+Acq
+ManTech
+R&D
+ISR
+ISR&T
+PNT
+COMSEC
+TRANSEC
+INFOSEC
+OPSEC
+PERSEC
+PHYSEC
+ACQ
+AoN
+AoE
+AoP
+AoS
+AoV
+VoI
+VoC
+VoIP
+ISR
+RMF
+CI
+AI/ML
+AI/DP
+A&A
+ECP
+MTA
+STIG
+DoDI
+DoDM
+PPBE
+FYDP
+KPP
+KSAs
+ILSP
+ILS
+ILSM
+SRDR
+PSA
+PBL
+BOM
+BAS
+BAH
+BAS
+PTDY
+COCOM
+ASR
+ADM
+APB
+MSA
+TMRR
+EMD
+FRP
+IOC
+FOC
+OTS
+MoP
+MoE
+CTE
+PSR
+ICD
+CDD
+CPD
+PPP
+ILSMP
+ILSPS
+ILSRC
+PoC
+PoV
+PoC
+PPT
+PMR
+TPM
+TPME
+NCR
+CAR
+PAR
+SCAR
+SDR
+MDR
+RCM
+CBM
+CBM+
+BIT
+BITE
+HWIL
+SWIL
+SIL
+HIL
+AoA
+T&E
+DT&E
+OT&E
+IOT&E
+FoS
+SoS
+FoE
+JADO
+JAIC
+JADC2
+JADC2-CFT
+FBL
+PBL
+ABL
+LRIP
+FRP
+ILS
+IUID
+UID
+RFID
+MTBF
+MTTR
+MTBR
+MMH
+AOG
+OEM
+PBL
+OBE
+CM
+CMDB
+CMS
+CAB
+CCB
+IV&V
+AoIP
+SATCOM
+MILSATCOM
+COTS
+MOTS
+GOTS
+QA
+QC
+FPCON
+HPCON
+HPAC
+DoDIN
+GIG
+JIE
+DISN
+HBSS
+ACAS
+SABI
+C&A
+ATO
+ATC
+CONOPS
+MoD
+MoE
+MoP
+SWaP
+SWaP-C
+RTO
+BFT
+BFT2
+SATCOM
+MHE
+MRAP
+TPFDD
+TPFDDL
+ISR
+F2T2EA
+OCO
+DCO
+DCO-IDM
+JCR
+BFT
+DAGR
+GCCS
+GCCS-J
+GCCS-A
+DCGS
+DCGS-A
+DCGS-N
+DCGS-MC
+DCGS-SOF
+BAE
+BMD
+BMDS
+C-RAM
+GBAD
+AMD
+AMDPCS
+AMDWS
+AFATDS
+NGCV
+NGSW
+PSDS2
+JLTV
+OEF
+OIF
+NTISR
+SRP
+CCDR
+CoCom
+PERSTEMPO
+OPTEMPO
+DA PAM
+AR
+FRAGO
+OPORD
+WARNORD
+SYNCH
+JIPOE
+MIPR
+SFAC
+BASOPS
+COMSEC
+INFOSEC
+EMSEC
+SYSTEST
+SDE
+IDE
+HITL
+SITL
+SIL
+DoDAAC
+UIC
+UICDS
+DASD
+DEPSECDEF
+SecDef
+SecArmy
+SecNav
+SECAF
+DCGS
+C2ISR
+C4
+C5
+C3I
+GOTS
+MOTS
+SATCOM
+BFT
+DAGR
+SIDPERS
+DIMHRS
+JNTC
+JNTC-J
+JSCP
+JSPS
+JSR
+MDR
+MDR
+SAR
+SAP
+SAPI
+ESAPI
+NVG
+PVS
+RSTA
+EOD
+CBRN
+HAZMAT
+OSINT
+SIGINT
+HUMINT
+MASINT
+ELINT
+IMINT
+TECHINT
+FINT
+CI
+PSYOP
+MILDEC
+STRATCOM
+TRANSCOM
+AMC
+AFSOC
+ACC
+AETC
+AFMC
+USCYBERCOM
+USSPACECOM
+AFRL
+AFWERX
+DCGS
+DCGS-A
+DCGS-N
+DCGS-MC
+DCGS-SOF
+CSfC
+IA
+ISSO
+ISSM
+RMF
+STIG
+ATO
+POA&M
+SIPR
+NIPR
+COTS
+TAD
+TDY
+PTDY
+CONUS
+OCONUS
+TAA
+TAA
+DFARS
+FAR
+SAM
+CCR
+CAGE
+DUNS
+CLIN
+SLIN
+BoO
+Ao
+AoR
+AoC
+CoS
+CoCOM
+CoCom
+MoU
+MoA
+PoP
+PWS
+SOW
+SOO
+CP
+HQ
+EXCON
+FoUO
+PKI
+IAM
+IaaS
+PaaS
+SaaS
+BYOD
+IoT
+VoIP
+VPN
+QoS
+QoE
+BOM
+MTTR
+MTBF
+MTBR
+MMH
+ILS
+ILSMP
+ILSP
+ILSRC
+CBM
+CBM+
+SWaP
+SWaP
+HWIL
+SWIL
+SIL
+BIT
+BITE
+CM
+CMDB
+CMS
+CAB
+CCB
+IV&V
+JADO
+JADC2
+JADC2-CFT
+FoS
+SoS
+FoE
+PSA
+PSR
+ICD
+CDD
+CPD
+APB
+ADM
+ASR
+MSA
+TMRR
+EMD
+FRP
+IOC
+FOC
+Mil Std
+Mil Spec
+Mil Dep
+Mil Con
+IPv4
+IPv6
+A2/AD
+BLOS
+LOS
+M&S
+O&M
+IOT&E
+FoUO
+IUID
+UID
+COTS
+GOTS
+MOTS
+OS
+NT
+CD
+CI
+CA
+CI/CD
+PoP
+BoO
+Ao
+AoR
+AoC
+RMF
+IA
+IaaS
+PaaS
+SaaS
+BYOD
+IoT
+VoIP
+VPN
+QoS
+QoE
+PDR
+CDRL
+BOM
+MTBF
+MTTR
+MTBR
+MMH
+ILS
+ILSMP
+ILSP
+ILSRC
+CBM
+CBM+
+SWaP
+SWaP-C
+HWIL
+SWIL
+SIL
+BIT
+BITE
+CM
+CMDB
+CMS
+CAB
+CCB
+IV&V
+J&A
+TPM
+TPME
+SoS
+FoS
+FoE
+KPP
+KSA
+AoA
+MDA
+MoE
+MoP
+CTE
+PSA
+PSR
+ICD
+CDD
+CPD
+APB
+ADM
+ASR
+MSA
+TMRR
+EMD
+FRP
+IOC
+FOC
+OTS
+LNO
+PoR
+PMR
+PMP
+CONOPS
+MoU
+MoA
+SoW
+SoO
+PWS
+SLIN
+CLIN
+COR
+KO
+FAR
+DFARS
+GFE
+GFP
+GFI
+BAFO
+LPTA
+PT
+TDY
+TAD
+PTDY
+CONUS
+OCONUS
+BAS
+BAH
+MHE
+MRAP
+JLTV
+NGCV
+NGSW
+NTISR
+ISR
+SATCOM
+JADC2
+JADO
+JADC2-CFT
+CSfC
+IDAM
+PKI
+PKE
+ACAS
+HBSS
+STIG
+POA&M
+ATO
+ATC
+ATO-C
+IAM
+IAVM
+IAVA
+SE&I
+SDD
+LRIP
+PRR
+TRR
+SRR
+CDR
+PDR
+FDR
+ATP
+MSR
+QDR
+FY
+FYDP
+PPBE
+OML
+EDM
+MTM
+CT
+CTF
+FMS
+FMF
+PPP
+BoV
+DoDI
+DoDM
+DRRS
+DRMO
+MIPR
+MTF
+BCT
+Cbt Tm
+MTMC
+AMC
+AFMC
+AFRC
+ANG
+AETC
+ACC
+USCYBERCOM
+USSPACECOM
+STRATCOM
+TRANSCOM
+PACOM
+EUCOM
+AFRICOM
+CENTCOM
+NORTHCOM
+SOUTHCOM
+JTF
+JFACC
+JFLCC
+JFMCC
+CCDR
+OEF
+OIF
+OPTEMPO
+PERSTEMPO
+WARNORD
+OPORD
+FRAGORD
+EXORD
+CONPLAN
+OPLAN
+RFF
+RFQ
+RFP
+BAA
+JIEDDO
+FOB
+COIN
+GWOT
+APC
+HMMWV
+LMTV
+FMTV
+PNT
+GNSS
+JSF
+ISR&T
+NT
+CD
+EMCON
+NAVWAR
+NAVSEA
+NAVAIR
+NAVSUP
+MARFORCYBER
+MARFORCOM
+MARCENT
+PPBS
+JSCP
+JSPS
+JOPES
+JPRA
+JIOC
+JSOC
+DAGR
+FBCB2
+CPOF
+AFATDS
+AMDWS
+AMDPCS
+TACLAN
+DIMHRS
+JNTC
+SIDPERS
+PSDS2
+GIG
+JIE
+DISN
+SABI
+DoDIN
+DCO
+OCO
+DCO-IDM
+CND
+CNA
+CNE
+PEO
+PM
+SE
+SE&I
+ILS
+QA
+QC
+QMS
+ISO
+ISO/IEC
+SSP
+SAP
+SAR
+SAPI
+ESAPI
+NVG
+PVS
+CBRN
+HAZMAT
+JSTARS
+NTISR
+UAS
+UAV
+UCAV
+RPV
+RPA
+C-UAS
+CUAS
+DEW
+HEMP
+JWA
+LLR
+SLR
+DLR
+NSN
+NIIN
+AAC
+COCOM
+CDS
+ICAM
+TTP
+HASC
+SASC
+PBSA
+NDAA
+JROC
+JCIDS
+JCA
+COCOM
+SOP
+DLA
+DTRA
+DISA
+DARPA
+DAU
+FMS
+FMF
+LOA
+CCDR
+CP
+GSA
+DoC
+DoS
+DoT
+DoE
+EPA
+FAA
+OSHA
+GAO
+OMB
+OLR
+AR
+DA PAM
+DF
+FOM
+MOM
+ROM
+GOTS
+OTS
+UON
+JUON
+JEON
+JCTD
+ACTD
+CDL
+LCT
+HMMWV
+FMTV
+JLENS
+LCS
+SSDS
+C2PC
+C2
+C2I
+C4I
+C5ISR
+HPC
+IDM
+ATIS
+ATMP
+AV
+GV
+UUV
+USV
+UXS
+FVL
+FVL-M
+FVL-L
+FVL-H
+CHS
+CPOF
+JCR
+JBC-P
+MASCAL
+MEDLOG
+MEDPROS
+MEDEVAC
+TCCC
+EMEDS
+SRP
+MEB
+PEB
+P4T
+SGLI
+TRICARE
+DHA
+MTSS
+HPSP
+BPA
+BOA
+IDIQ
+TO
+PO
+PR
+CO
+COR
+CAO
+ACO
+DCMA
+WAWF
+PIEE
+SAMS
+GCSS-A
+GCSS-MC
+LCMC
+PSA
+PBL
+PSI
+PSM
+ILS
+CLPS
+CLS
+LRU
+SRU
+BIT
+BITE
+CBM
+CM
+CCB
+CAB
+CCRI
+RMF
+ATO
+POA&M
+IAVM
+IAVA
+CUI
+FOUO
+PII
+PHI
+CND
+CNA
+CNE
+DCO
+OCO
+SETA
+FTE
+LOE
+CPFF
+CPIF
+CPAF
+FFP
+T&M
+OT
+OTA
+UCA
+DRFP
+IFB
+SPOC
+AOR
+COCOM
+POM
+PPBE
+FYDP
+QDR
+NMS
+NDS
+NSS
+JSCP
+JOPES
+TPFDD
+TPFDDL
+RFF
+OLR
+OPLAN
+CONPLAN
+EXORD
+WARNORD
+FRAGORD
+SYNCH
+WBS
+OBS
+CBS
+RACI
+RMP
+IMP
+IMS
+EVMS
+EVM
+CPR
+IPMR
+CFSR
+CDRL
+SOW
+SOO
+PWS
+QASP
+SSR
+SF1449
+DD254
+DD250
+DD2579
+DD1423
+DD1149
+DD1494
+SF30
+SF33
+SF26
+DD254
+DD2579
+DD2659
+JITC
+IAW
+CBRN
+CBRNE
+WMD
+HSPD
+PPD
+ICD
+CDD
+CPD
+AoA
+JCIDS
+DOTMLPF
+DOTMLPF-P
+JCIDS
+CPG
+CDS
+CDSE
+SAP
+SAR
+SAPI
+ESAPI
+PPSM
+STIG
+HBSS
+ACAS
+RMF
+POA&M
+ATO
+ATC
+FISMA
+OMB
+NIST
+CNSS
+CNSSI
+CNSSP
+NSA
+CSS
+DISA
+DAU
+FAI
+OUSD
+USD(A&S)
+USD(R&E)
+USD(I&S)
+USD(C)
+USD(P)
+USD(P&R)
+DCSA
+GSA
+OMBUD
+HCA
+SSA
+SSO
+FSO
+PSO
+SCG
+PSP
+SAPCO
+SAPOC
+CPSO
+COMSEC
+INFOSEC
+EMSEC
+TEMPEST
+OPSEC
+PERSEC
+PHYSEC
+FP
+FPCON
+HPCON
+FPCON
+CUI
+FOUO
+PII
+PHI
+COOP
+COG
+NIMS
+ICS
+EMAC
+COGCON
+NIPP
+NISTIR
+CCRI
+CSIRT
+CERT
+CSIRC
+SOC
+IOC
+FOC
+IOC
+CM
+CAB
+CCB
+SCM
+ECP
+PRR
+TRR
+SRR
+CDR
+FDR
+ATP
+LRIP
+FRP
+EDM
+PBL
+ILS
+CLS
+LRU
+SRU
+AOG
+MMH
+MTTR
+MTBF
+MSR
+ROC
+FOC
+RFI
+RFP
+IFB
+SOW
+SOO
+PWS
+QASP
+CLIN
+SLIN
+WAWF
+PIEE
+SAM
+CCR
+CAGE
+DUNS
+FAPIIS
+FPDS
+CPARS
+SPOT
+DFAS
+DCPS
+DCPDS
+DTS
+DTMO
+TSP
+LES
+SF50
+SF52
+FERS
+CSRS
+OPM
+HRO
+CHCO
+SPS
+DAWIA
+PMBOK
+PMP
+DAU
+FAI
+T&E
+DT&E
+OT&E
+IOT&E
+BLUF
+RTB
+RTD
+DTS
+TPFDD
+FPCON
+HPCON
+SOP
+TTP
+TACSOP
+COA
+COP
+ISR
+JISR
+SIGINT
+COMINT
+ELINT
+HUMINT
+OSINT
+MASINT
+TECHINT
+FININT
+IMINT
+FINT
+CI
+PSYOP
+MILDEC
+EW
+EP
+ES
+EA
+EMI
+EMC
+TEMPEST
+DEW
+HEL
+RF
+UHF
+VHF
+HF
+SATCOM
+MILSATCOM
+PLGR
+GB-GPS
+DAGR
+NVG
+PVS
+I2
+EO
+IR
+SWIR
+MWIR
+LWIR
+SAR
+MTI
+FOPEN
+TPQ
+CSAR
+PR
+CASEVAC
+MEDEVAC
+CLS
+TCCC
+CT
+C-IED
+C-UAS
+FP
+IED
+VBIED
+PBIED
+HME
+WIT
+CIED
+SWAT
+SRR
+JSOC
+AWG
+JIEDDO
+AFSOC
+MARSOC
+NSW
+SOF
+USSOCOM
+SOCOM
+SOJTF
+GCC
+FCC
+JTF
+CJTF
+MNFI
+MNF-I
+CJFLCC
+JFACC
+JFMCC
+JFC
+OIC
+NCOIC
+XO
+CO
+DC
+SGT
+CPT
+LTC
+COL
+BG
+MG
+LTG
+GEN
+CSM
+SGM
+SMA
+1SG
+PSG
+SL
+TL
+FO
+FAC
+JTAC
+JFO
+RTO
+TACP
+PCC
+PCI
+TC
+DCG
+DCMA
+DPAS
+PAO
+PA
+IO
+STRATCOM
+TRANSCOM
+C3
+C4
+C5
+2D/3D 
 
+A2/AD 
+
+AAR 
+
+AdatP-3 
+
+Admin 
+
+AEWE 
+
+AFATDS 
+
+AFRICOM 
+
+AI 
+
+AITS 
+
+API 
+
+App 
+
+AR/VR 
+
+Arch 
+
+ATHENA-R 
+
+BATS-D 
+
+BCT 
+
+BER 
+
+BLUFOR 
+
+BVI 
+
+C2 
+
+CDRL 
+
+CENTCOM 
+
+CENTRIXS 
+
+CFF 
+
+CI/CD 
+
+Cld 
+
+CLIN 
+
+Conf/Config 
+
+COP 
+
+CoT 
+
+COTS 
+
+CPU 
+
+CSV 
+
+CyberBOSS 
+
+Dbase 
+
+DCAA 
+
+DDS 
+
+DEVCOM 
+
+DFARS 
+
+DoD 
+
+DoDAF 
+
+DOTMLPF 
+
+DTED 
+
+Ed 
+
+EMANE 
+
+EMI 
+
+Engr 
+
+EUCOM 
+
+EUD 
+
+EW 
+
+EXCON 
+FAR 
+FLAIR 
+Fld 
+FO 
+FSR 
+GCC High 
+GCCS 
+GOTS 
+HQ 
+HTTPS 
+IBS 
+ICMP 
+INDOPACOM 
+Int 
+iPerf 
+IPv4 / IPv6 
+ISR 
+IT 
+ITN 
+IVAS 
+J/S 
+JADC2 
+JBC-P 
+Jm 
+JPMRC 
+JREAP 
+JSON 
+
+JTAC 
+
+KLV 
+
+KMI 
+
+LFRR 
+
+LVC 
+
+M&S 
+
+MAG 
+
+MBSE 
+
+Mech 
+
+MEDEVAC 
+
+MEL 
+
+Mgr 
+
+MIP 
+
+MODESTA 
+
+MOSA 
+
+MSN CMD 
+
+NetModX 
+
+NIPRNET 
+
+NIST SP 
+
+Ntwrk 
+
+O/C 
+
+OEM 
+
+OMNI 
+
+OneSAF 
+
+Ops 
+
+OS 
+
+OTG 
+
+PLI 
+
+PM 
+
+PM EW&C 
+
+PO 
+
+PRIME 
+
+Prog 
+
+Proj 
+
+PWS 
+
+QA/QC 
+
+QRF 
+
+REST 
+
+RF 
+
+RFP 
+
+RFQ 
+
+RPDC 
+
+RUT 
+
+S/W 
+
+S2AS 
+
+SADL 
+
+SIL 
+
+SME 
+
+SNC 
+
+SNR 
+
+SOCOM 
+
+SOF 
+
+SoS 
+
+SOUTHCOM 
+
+Spec 
+
+Sr 
+
+SSE 
+
+Svc 
+
+Sys 
+
+SysML 
+
+TacNet 
+
+TAK 
+
+Tech 
+
+Thruput 
+
+TO 
+
+TOC 
+
+TRAX® 
+
+TRR 
+
+UAV 
+
+USARPAC 
+
+USASOC 
+
+USB 
+
+VMF 
+
+AGL 
+
+AI&E 
+
+ASA 
+
+ASM 
+
+ATA 
+
+ATC 
+
+BA 
+
+CDI 
+
+CEP 
+
+CONEX 
+
+C2 
+
+DAM 
+
+DEG 
+
+DCRA 
+
+DEVCOM 
+
+ESA  
+
+ESV 
+
+FAA 
+
+FST 
+
+FOC 
+
+FOD 
+
+GDI 
+
+GFR 
+
+GPS 
+
+IAP 
+
+ICAO 
+
+ILS 
+
+INS 
+
+Intr 
+
+I/Q 
+
+IRIG 
+
+Jrmn 
+
+KPP 
+
+LOS 
+
+LRU 
+
+MAG 
+
+ME 
+
+MIU 
+
+NAV 
+
+NE 
+
+NM 
+
+NOTAM 
+
+PCA 
+
+PgM 
+
+Pj Adm 
+
+PMO 
+
+PWS 
+
+QoS 
+
+RCU 
+
+RF 
+
+RMS 
+
+RoE 
+
+RPM 
+
+Sr 
+
+SIAP 
+
+SME 
+
+SOP 
+
+SoS 
+
+SSV 
+
+TE 
+
+Tech 
+
+Tech Ed. 
+
+TEMP 
+
+TOA 
+
+Tech W. 
+
+UAS 
+
+UPS 
+
+VFR 
+
+WBS 
+
+3D 
+
+AC 
+
+ACC 
+
+AFRICOM 
+
+AIS 
+
+ALSE 
+
+AMPS 
+
+AOR 
+
+APG 
+
+AR 
+
+ATO 
+
+AWAPSS 
+
+C2 
+
+C5ISR 
+
+CDRL 
+
+CHESS 
+
+CI/CD 
+
+CMMI 
+
+CN 
+
+CNC 
+
+COMINT  
+
+CONUS 
+
+COTS 
+
+CPARS 
+
+CUAS 
+
+DCMA 
+
+DDL 
+
+DevSecOps 
+
+DF 
+
+DFAR 
+
+DoD 
+
+EMARSS 
+
+ES 
+
+ESA 
+
+EUCOM 
+
+EW 
+
+FAA 
+
+FAR 
+
+FAT 
+
+FIFF 
+
+FLAIR 
+
+FTE 
+
+GCS 
+
+GOTS 
+
+GR 
+
+HADES 
+
+HF 
+
+HMMWV 
+
+I/O 
+
+IA 
+
+IAW 
+
+IDIQ 
+
+INDOPACOM 
+
+IFR 
+IMS 
+IPT 
+ISR 
+JBMDL 
+KW 
+LIDAR 
+MARSS 
+MEP 
+MSA 
+MSR 
+NIPRNet 
+NVG 
+OCONUS 
+OEM 
+OS 
+OSA 
+PMO 
+PMR 
+PO 
+POA&M 
+POI 
+PR 
+PWS 
+QRC 
+RF 
+RFP 
+RFQ 
+RMF 
+RVTM 
+SCIF 
+SIGINT
+SIL 
+SIPRnet 
+SLA 
+SLIN 
+SME 
+SNC 
+SOW 
+STORM 
+SUAS 
+SVD 
+SW 
+SWaP-L 
+T&E 
+TACOP 
+TDP 
+TM 
+TO 
+TRL 
+TRR
+TS/SCI 
+UAS 
+U.S. 
+V&V 
+VaDER 
+VHF 
+ACS 
+ACAT 
+AESA 
+ACI 
+AIS 
+AISR 
+ALE 
+AN 
+AWR 
+APG 
+ATO 
+AWR 
+AWS 
+ATP 
+BCT 
+BMD 
+BS 
+C4ISR 
+C5ISR 
+CCNA 
+CCE 
+CD 
+CDB 
+CDRL 
+CECOM 
+CFII 
+CFA 
+CI 
+CIAT 
+CISSP 
+
+CMMI 
+
+CO 
+
+COMPTIA 
+
+CONUS 
+
+COR 
+
+COTS 
+
+DCGS-A 
+
+DCRA 
+
+DevSecOps 
+
+DHC 
+
+DISS 
+
+DoD 
+
+DoDAF 
+
+EAB 
+
+ECMA 
+
+ECP 
+
+EI 
+
+EKS 
+
+ELINT 
+
+EMARSS 
+
+EO 
+
+ESI 
+
+EW 
+
+FAA 
+
+FBCB2 
+
+FCR 
+
+FEX 
+
+Fed 
+
+FLAIR 
+
+FMS 
+
+FSR 
+
+GA 
+
+GEN 
+
+GRCS 
+
+GUI 
+
+HADES 
+
+HP 
+
+HPSA 
+
+HTC 
+
+I2WD 
+
+IA 
+
+IAW 
+
+IANM 
+
+IAVA 
+
+IBM 
+
+IC 
+
+ICBM 
+
+IDNX 
+
+ILS 
+
+INDOPACOM 
+
+IR&D 
+
+ISDN 
+
+ISR 
+
+IPR 
+
+IPS 
+
+IT 
+
+I&T 
+
+JITC 
+
+JB-MDL 
+
+Jr. 
+
+JWICS 
+
+KP 
+
+LAN 
+
+LLC 
+
+LOE 
+
+LVC 
+
+LUT 
+
+MC 
+
+MCN-AE 
+
+MCSE 
+
+MEI 
+
+MFEW-AL 
+
+MFP 
+
+MFSR 
+
+MIL-STD 
+
+MIPR 
+
+MoD 
+
+MOD 
+
+MS 
+
+M&S 
+
+MSR 
+
+MTT 
+
+NASA 
+
+NASDAQ 
+
+NETMOD 
+
+NIPRNET 
+
+NT 
+
+OCO 
+
+OCONUS 
+
+OGS 
+
+OS 
+
+OSD 
+
+OT&E 
+
+OTEG 
+
+PDSS 
+
+PEO IEW&S 
+
+PMA 
+
+PMP 
+
+PM 
+
+PMR 
+
+PKCS 
+
+QA 
+
+QAR 
+
+RF 
+
+R&D 
+
+RDT&E 
+
+RHEL 
+
+RMF 
+
+RFP 
+
+RSA 
+
+RVTM 
+
+SAF 
+
+SAFE 
+
+SAN 
+
+SCAP 
+
+SDLC 
+
+SDD 
+
+SEMP 
+
+SEWIP 
+
+SIA 
+
+SIGINT 
+
+SIL 
+
+SIPRNET 
+
+SIPS 
+
+SME 
+
+SMMTT 
+
+SoS 
+
+SOP 
+
+SOW 
+
+SQL 
+
+SRR 
+
+STIG 
+
+STORM 
+
+SW 
+
+TISC 
+
+TLS 
+
+TO 
+
+TRR 
+
+TS/SCI 
+
+TSP 
+
+UAV 
+
+UAS 
+
+UK 
+
+USAF 
+
+USAMRICD 
+
+USAPHC 
+
+VCP 
+
+VMware 
+
+VPN 
+
+ACC 
+
+AFRICOM 
+
+AI&E 
+
+APACS 
+
+APG 
+
+App 
+
+ASO 
+
+ATCTS 
+
+Att. 
+
+BCT 
+
+C5ISR 
+
+C5S 
+
+CAC 
+
+CDRL 
+
+CERDEC 
+
+CISSP 
+
+Comms 
+
+Coord 
+
+COR 
+
+Corp. 
+
+CPAR 
+
+CSM 
+
+DCAA 
+
+DCMA 
+
+DD2875 
+
+DEVCOM 
+
+DISS 
+
+DoD 
+
+EW 
+
+FAR 
+
+FIFF 
+
+FSO 
+
+FTE 
+
+F/NET 
+
+GFE 
+
+GFM 
+
+GFP 
+
+Govt 
+
+GP 
+
+HIPAA 
+
+HR 
+
+IA 
+
+IMS 
+
+INFOSEC 
+
+Int 
+
+ISOPREP 
+
+ISR 
+
+IT 
+
+ITIL 
+
+ITPSO 
+
+JB MDL 
+
+Jm 
+
+LCAT 
+
+LFRR 
+
+LOA 
+
+LSSGB 
+
+MAG 
+
+MI 
+
+Model 
+
+NDA 
+
+NETMOD 
+
+ODC 
+
+O3 
+
+OP 
+
+OPSEC 
+
+Para 
+
+PEO IEW&S 
+
+PgMP 
+
+PIEE 
+
+PLC 
+
+PM 
+
+PM ACS 
+
+PM EW&C 
+
+PMI-ACP 
+
+PMI-RMP 
+
+PMP 
+
+POC 
+
+PWS 
+
+Repl. 
+
+RFP 
+
+SETA 
+
+Sim 
+
+SME 
+
+SOP 
+
+SPOT 
+
+SPRDE 
+
+Sr 
+
+SSV 
+
+STORM 
+
+Sub(s) 
+
+SVP 
+
+SYSADMIN 
+
+TARP 
+
+TM 
+
+TO 
+
+WBS 
+
+YPG 
+
+ABIC  
+
+ACC  
+
+AFRICOM  
+
+AOR  
+
+APM  
+
+ASO  
+
+AT  
+
+ATCTS  
+
+AW  
+
+C5S  
+
+CAC  
+
+CDRL  
+
+CENTCOM  
+
+CISSP  
+
+CME  
+
+CMMI  
+
+CMMI-DEV  
+
+CMMI-SVC  
+
+CONUS  
+
+COR  
+
+CS  
+
+CSM  
+
+CTIP  
+
+CUI  
+
+DAU  
+
+DBSL  
+
+DD 2875  
+
+DoD  
+
+EUCOM  
+
+F/NET  
+
+FMS  
+
+FOC  
+
+GFE  
+
+GFP  
+
+GM  
+
+H2F  
+
+HAZMAT  
+
+HR  
+
+INDOPACOM  
+
+IOC  
+
+ISO  
+
+IT  
+
+ITIL  
+
+ITPSO  
+
+JM  
+
+KO  
+
+LCAT  
+
+LMD  
+
+LSSGB  
+
+MAG  
+
+NC  
+
+NDA  
+
+NET  
+
+OCM  
+
+OCONUS  
+
+OPS  
+
+OPSEC  
+
+Para (Paras)  
+
+PCO  
+
+PdM  
+
+PEO  
+
+PEO EIS  
+
+PgMP  
+
+PM  
+
+PM EN  
+
+PM EW&C  
+
+PM SSV  
+
+PM TN  
+
+PMI  
+
+PMI-ACP  
+
+PMI-RMP  
+
+PMP  
+
+POC  
+
+PWS  
+
+QASP  
+
+QMS  
+
+RFI  
+
+RFP  
+
+RO  
+
+RSO  
+
+SAFe  
+
+SB  
+
+SCIE  
+
+SDVOSB  
+
+SETA  
+
+SIPR(NET)  
+
+SME  
+
+SOP  
+
+SOUTHCOM  
+
+SPE  
+
+SSV  
+
+Subk  
+
+SVP  
+
+TARP  
+
+TM  
+
+TO  
+
+WOSB  
+
+YPG 
+
+1:1s  
+
+AD&D  
+
+AFCEA  
+
+APEO  
+
+APG  
+
+APL  
+
+ASCM  
+
+Att.  
+
+AUSA  
+
+AW  
+
+AWS  
+
+BLS  
+
+BU  
+
+C5S  
+
+CAC  
+
+CCIE   
+
+CCM  
+
+CDRL  
+
+CENTCOM  
+
+CEO  
+
+CFO  
+
+CME  
+
+CMMC  
+
+CMMI  
+
+CONUS  
+
+COOP  
+
+COR  
+
+CPAR  
+
+CS  
+
+CTO  
+
+CUI  
+
+DAU  
+
+DAUAA  
+
+DCSA  
+
+DoD  
+
+E/O  
+
+EUCOM  
+
+FCL  
+
+FMLA  
+
+F/NET  
+
+FSA  
+
+FSO  
+
+GCC High  
+
+GM  
+
+GovCon  
+
+GTC  
+
+H2F  
+
+HR  
+
+HSA  
+
+ID  
+
+IEEE  
+
+IL5  
+
+INDOPACOM  
+
+ISO  
+
+ISR  
+
+JM  
+
+KP  
+
+LANPAC  
+
+LCAT  
+
+LMD  
+
+LOA  
+
+LOA  
+
+MAG  
+
+MAG U  
+
+MDL  
+
+MFF  
+
+MS  
+
+NC  
+
+NCR  
+
+NDA  
+
+O365  
+
+OCONUS  
+
+OPS  
+
+OSHA  
+
+PCO  
+
+PD SAI  
+
+PdM  
+
+PEO  
+
+PHI  
+
+PII  
+
+PM  
+
+PMI  
+
+PM EN  
+
+PM EW&C  
+
+PM SL  
+
+PM SSV  
+
+PM SWAR  
+
+PM TN  
+
+POR  
+
+PTO  
+
+PWS  
+
+QMS  
+
+RFP  
+
+S/W  
+
+SCIE  
+
+SEI  
+
+SETA  
+
+SIPR(NET)  
+
+SMART  
+
+SME  
+
+SOF  
+
+SOFA  
+
+SOUTHCOM  
+
+SPE  
+
+SPECOPS  
+
+SPOT  
+
+SSV  
+
+STEM  
+
+STORM  
+
+SVP  
+
+TAP  
+
+TS  
+
+UMass  
+
+USSOCOM WCP-CC 
+
+A/DACG 
+
+AAMDC 
+
+ACC-APG 
+
+ADA 
+
+AIMSE 
+
+AMC 
+
+ANCOC 
+
+AOR 
+
+APACS 
+
+AR 
+
+ASA(ALT) 
+
+ATC 
+
+ATEC 
+
+ATO 
+
+BA 
+
+BCT 
+
+BNCOC 
+
+C4I 
+
+C5ISR 
+
+CAB 
+
+CASCOM 
+
+CDRL 
+
+CECOM 
+
+CERDEC 
+
+CFSR 
+
+CIO 
+
+CISSP 
+
+COE 
+
+COMSEC 
+
+CONUS 
+
+COTR 
+
+CP 
+
+CPARS 
+
+CPR 
+
+CREW 
+
+C/SSR 
+
+CFSR 
+
+D&F 
+
+DA 
+
+DACM 
+
+DAVE 
+
+DAWIA 
+
+DCMA 
+
+DISA 
+
+DIVARTY 
+
+DoD 
+
+DoED 
+
+DOT&E 
+
+DPAS 
+
+DREN 
+
+DTCC 
+
+DTS 
+
+EA 
+
+eMASS 
+
+EPA 
+
+EVM 
+
+FAR 
+
+FARP 
+
+FCS 
+
+FFP 
+
+FORSCOM 
+
+FTE 
+
+FWS-I 
+
+FWS-S 
+
+GATOR 
+
+GCCS-A 
+
+GFEBS 
+
+GFEBS-SA 
+
+HASC 
+
+HPCMP 
+
+HQDA 
+
+IED 
+
+IGCE 
+
+ILS 
+
+IMS 
+
+IPSE 
+
+IPT 
+
+iRAPT 
+
+IRS 
+
+ISOPREP 
+
+ISR 
+
+ITES 
+
+ITIL 
+
+IEW&S 
+
+J&A 
+
+JCIDS 
+
+JDA 
+
+JIATF-W 
+
+JMPS 
+
+JSE 
+
+LCMC 
+
+LMP 
+
+LRP 
+
+MAG 
+
+MBA 
+
+MCSA 
+
+MFEW-AL 
+
+MOS 
+
+MQ-8/MQ-9 
+
+MS 
+
+MS 
+
+MTOE 
+
+NAVAIR 
+
+NAWCAD 
+
+NCO 
+
+NCOIC 
+
+NETCOM 
+
+NGSW-RF 
+
+NPPD 
+
+OCDETF 
+
+OCONUS 
+
+OEM 
+
+OT&E 
+
+PBUSE 
+
+PdM EOIR 
+
+PEO 
+
+PEO C3N 
+
+PEO C3T 
+
+PEO EIS 
+
+PEO IEW&S 
+
+PEO U&W 
+
+PERT 
+
+PgMP 
+
+PIEE 
+
+PL EA 
+
+PM 
+
+PMA 
+
+PM EW&C 
+
+PM FCS 
+
+PMI 
+
+PMI-ACP 
+
+PMI-RMP 
+
+PMP 
+
+PMS 
+
+POC 
+
+POL 
+
+POR 
+
+PWS 
+
+QRC 
+
+RFI 
+
+RFP 
+
+RMF 
+
+ROI 
+
+SAFC 
+
+SARSS 
+
+SASC 
+
+SATCOM 
+
+SCI 
+
+SDREN 
+
+SES 
+
+SETA 
+
+SME 
+
+SOP 
+
+SPAWAR 
+
+SSA 
+
+SSEB 
+
+SSO 
+
+SQL 
+
+STORM II 
+
+SVP 
+
+T&E 
+
+T&M 
+
+TDA 
+
+TS/SCI 
+
+USAREUR 
+
+USG 
+
+USPACOM 
+
+WAWF 
+
+WESS 
+
+XO 
+
+CAP 
+
+CDRL 
+
+COR 
+
+DCMA 
+
+DFARS 
+
+DoD 
+
+FAR 
+
+GFP 
+
+GP 
+
+IT 
+
+KO 
+
+MAG 
+
+NSN 
+
+PIEE 
+
+PLCO 
+
+PWS 
+
+RFP 
+
+WAWF 
+
+ACO  
+
+BLS  
+
+CAF  
+
+CFR  
+
+DCAA  
+
+DCMA  
+
+DL  
+
+ERI  
+
+FLSA  
+
+G&A  
+
+LCAT  
+
+LOE  
+
+PoP  
+
+SCA  
+
+SOC  
+
+TCI 
+
+AFB  
+
+CFO  
+
+DBA  
+
+DCAA  
+
+ISSJ  
+
+JSOC  
+
+OCI  
+
+RFP  
+
+SBA  
+
+SOW  
+
+SSP  
+
+TS  
+
+USSOCOM 
+
+AFSOC  
+
+AL  
+
+AWS  
+
+BLOS  
+
+CAG  
+
+CENTCOM  
+
+CIAS  
+
+CISSC OIR  
+
+COE  
+
+CONUS  
+
+COR  
+
+DAGGER  
+
+DTAAC  
+
+ERM  
+
+EVE  
+
+FCI  
+
+FSO  
+
+GFE  
+
+HSI  
+
+IC  
+
+IRM  
+
+ISR  
+
+IT  
+
+JGASS  
+
+JSOC  
+
+JSOTF  
+
+KPI  
+
+KSA  
+
+NCO  
+
+NGA  
+
+NICE  
+
+NIST  
+
+NP  
+
+OCONUS  
+
+ODTAAC  
+
+OM  
+
+PgMP  
+
+PMBOK  
+
+PMO  
+
+PMP  
+
+PMR  
+
+PRIME  
+
+PWW  
+
+QC  
+
+SC  
+
+SCIF  
+
+SITREP  
+
+SODCC  
+
+SOCOM  
+
+SOTCC  
+
+SOF  
+
+SOP  
+
+SOW  
+
+SSP  
+
+STO  
+
+STORM  
+
+SV  
+
+T&M  
+
+TBOK  
+
+VoIP  
+
+VPM 
+
+AIS  
+
+CAC  
+
+CISSC  
+
+CJTF  
+
+CONUS  
+
+COR  
+
+DAGGER  
+
+DISS  
+
+DoD  
+
+ERM  
+
+IDAC  
+
+JGASS  
+
+JIANT  
+
+JSOC  
+
+MARSOC  
+
+MC  
+
+MNFI  
+
+OCONUS  
+
+PMO  
+
+PMT  
+
+PSP  
+
+RM  
+
+SIGINT  
+
+SME  
+
+SOF  
+
+SPEAR  
+
+SV  
+
+TBOK  
+
+TMT  
+
+USSOCOM 
+
+ABI  
+
+ACCS  
+
+AF  
+
+AFRICOM  
+
+AI  
+
+AIDE  
+
+AISR  
+
+AMOC  
+
+AOP  
+
+AOR  
+
+AT  
+
+BOE  
+
+CAC  
+
+CASEVAC  
+
+CCMD  
+
+CEH  
+
+CI  
+
+CISSP  
+
+CJTF  
+
+CM  
+
+COMPUSEC  
+
+CONOPS  
+
+CONUS  
+
+COR  
+
+CPAR  
+
+CSC  
+
+CSSO  
+
+CWMD  
+
+DCSA  
+
+DISS  
+
+DNI  
+
+DNR  
+
+DoD  
+
+DSS  
+
+EUCOM  
+
+EW  
+
+FIFF  
+
+FMHER  
+
+FMS  
+
+FMTV  
+
+FMV  
+
+FORSCOM  
+
+FSO  
+
+GEOINT  
+
+HMMWV  
+
+IA  
+
+IAA  
+
+IAS  
+
+IC  
+
+IED  
+
+IN  
+
+INDOC  
+
+INSCOM  
+
+IP  
+
+ISR  
+
+ITAR  
+
+ITC  
+
+ITK  
+
+IWC  
+
+IWfF  
+
+JBLM  
+
+JGASS  
+
+JSOC  
+
+JSOTF  
+
+JTAC  
+
+LMTV  
+
+LNO  
+
+LOE  
+
+LTG  
+
+MARSS  
+
+MASINT  
+
+MATV  
+
+METL  
+
+MITS  
+
+ML  
+
+MSR  
+
+NSA  
+
+NSAT  
+
+OCONUS  
+
+ODC  
+
+OPSEC  
+
+OSINT  
+
+PCS  
+
+PDB  
+
+PED  
+
+PIF  
+
+PM  
+
+PMP  
+
+PMR  
+
+PoP  
+
+PSMR  
+
+PSO  
+
+PWS  
+
+PWW  
+
+QMP  
+
+QRC  
+SAMD  
+SAP  
+SCIF  
+SFG  
+SLIN  
+SME  
+SMU  
+SOCOM  
+SOF  
+SOW 
+SSO  
+STO  
+SV  
+TDL  
+TDY  
+TO  
+TOC  
+TOPM  
+TPM  
+TPOC  
+TR  
+TST  
+TTO  
+TTP  
+UKG  
+UN  
+UROC
+USASOC  
+USSOCOM  
+VAR  
+VEO  
+WBS  
+WPAFB 
+AAR 
+AMA 
+ATP 
+CMP 
+CONUS 
+COR 
+
+DA 
+
+DART 
+
+DCMA 
+
+DoD 
+
+DoS 
+
+ECS 
+
+ELO 
+FAA 
+FACT 
+FMS 
+FOC 
+FOM 
+FTE 
+GFR 
+HEEDS 
+IAW 
+IE 
+IERW 
+IETM 
+IOC 
+IP 
+KO 
+LTU AF 
+MOC 
+MOI 
+MTP/ME 
+MTPC 
+OCONUS 
+OSHA 
+PDSS 
+PM 
+PMP 
+POC 
+POI 
+PoP 
+PQDR 
+PSS 
+PWS 
+QMS 
+RL 
+RW 
+SAMA 
+SATMO 
+SIC 
+SIP 
+SL 
+SME 
+SOP 
+SP 
+TACOPS 
+TAFT 
+TDP 
+TLO 
+UPV 
+U.S. 
+USAACE 
+USG
